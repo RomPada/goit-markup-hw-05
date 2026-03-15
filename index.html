@@ -26,7 +26,7 @@
           <a class="logo" href="./index.html"
             >Web<span class="logo-dark">Studio</span></a
           >
-          <ul class="menu">
+          <ul class="menu list">
             <li class="menu-item">
               <a class="menu-link current" href="./index.html">Studio</a>
             </li>
@@ -38,14 +38,15 @@
             </li>
           </ul>
         </nav>
+
         <address class="address" id="contacts">
-          <ul class="address-list">
-            <li>
+          <ul class="address-list list">
+            <li class="address-item">
               <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="address-item">
               <a class="address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -56,7 +57,7 @@
     </header>
 
     <main>
-      <section class="hero hero-section">
+      <section class="hero-section">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
@@ -66,7 +67,7 @@
       <section class="advantages section">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
-          <ul class="advantages-list">
+          <ul class="advantages-list list">
             <li class="advantages-item">
               <div class="advantages-icon-box">
                 <svg class="advantages-icon" width="64" height="64">
@@ -122,7 +123,7 @@
       <section class="team section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
-          <ul class="team-list">
+          <ul class="team-list list">
             <li class="team-item">
               <img
                 src="./images/team/img-01.jpg"
@@ -133,7 +134,7 @@
               <div class="team-card-content">
                 <h3 class="section-subtitle team-subtitle">Mark Guerrero</h3>
                 <p class="section-text team-text">Product Designer</p>
-                <ul class="social-list">
+                <ul class="social-list list">
                   <li class="social-item">
                     <a class="social-link" href="" aria-label="Instagram">
                       <svg class="social-icon" width="16" height="16">
@@ -175,7 +176,7 @@
               <div class="team-card-content">
                 <h3 class="section-subtitle team-subtitle">Tom Ford</h3>
                 <p class="section-text team-text">Frontend Developer</p>
-                <ul class="social-list">
+                <ul class="social-list list">
                   <li class="social-item">
                     <a class="social-link" href="" aria-label="Instagram">
                       <svg class="social-icon" width="16" height="16">
@@ -217,7 +218,7 @@
               <div class="team-card-content">
                 <h3 class="section-subtitle team-subtitle">Camila Garcia</h3>
                 <p class="section-text team-text">Marketing</p>
-                <ul class="social-list">
+                <ul class="social-list list">
                   <li class="social-item">
                     <a class="social-link" href="" aria-label="Instagram">
                       <svg class="social-icon" width="16" height="16">
@@ -259,7 +260,7 @@
               <div class="team-card-content">
                 <h3 class="section-subtitle team-subtitle">Daniel Wilson</h3>
                 <p class="section-text team-text">UI Designer</p>
-                <ul class="social-list">
+                <ul class="social-list list">
                   <li class="social-item">
                     <a class="social-link" href="" aria-label="Instagram">
                       <svg class="social-icon" width="16" height="16">
@@ -295,16 +296,17 @@
         </div>
       </section>
 
-      <section class="portfolio section">
+      <section class="portfolio section" id="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
-          <ul class="portfolio-list">
-            <li class="portfolio-card">
-              <div class="portfolio-card-image">
+          <ul class="portfolio-list list">
+            <li class="portfolio-item">
+              <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio/img-01.jpg"
                   alt="Banking App"
                   width="360"
+                  height="300"
                 />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -313,16 +315,17 @@
                 </p>
               </div>
               <div class="portfolio-card-content">
-                <h3 class="portfolio-card-title">Banking App</h3>
-                <p class="portfolio-card-text">App</p>
+                <h3 class="section-subtitle">Banking App</h3>
+                <p class="section-text">App</p>
               </div>
             </li>
-            <li class="portfolio-card">
-              <div class="portfolio-card-image">
+            <li class="portfolio-item">
+              <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio/img-02.jpg"
                   alt="Cashless Payment"
                   width="360"
+                  height="300"
                 />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -331,16 +334,17 @@
                 </p>
               </div>
               <div class="portfolio-card-content">
-                <h3 class="portfolio-card-title">Cashless Payment</h3>
-                <p class="portfolio-card-text">Marketing</p>
+                <h3 class="section-subtitle">Cashless Payment</h3>
+                <p class="section-text">Marketing</p>
               </div>
             </li>
-            <li class="portfolio-card">
-              <div class="portfolio-card-image">
+            <li class="portfolio-item">
+              <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio/img-03.jpg"
                   alt="Meditation App"
                   width="360"
+                  height="300"
                 />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -349,16 +353,17 @@
                 </p>
               </div>
               <div class="portfolio-card-content">
-                <h3 class="portfolio-card-title">Meditation App</h3>
-                <p class="portfolio-card-text">App</p>
+                <h3 class="section-subtitle">Meditation App</h3>
+                <p class="section-text">App</p>
               </div>
             </li>
-            <li class="portfolio-card">
-              <div class="portfolio-card-image">
+            <li class="portfolio-item">
+              <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio/img-04.jpg"
                   alt="Taxi Service"
                   width="360"
+                  height="300"
                 />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -367,16 +372,17 @@
                 </p>
               </div>
               <div class="portfolio-card-content">
-                <h3 class="portfolio-card-title">Taxi Service</h3>
-                <p class="portfolio-card-text">Marketing</p>
+                <h3 class="section-subtitle">Taxi Service</h3>
+                <p class="section-text">Marketing</p>
               </div>
             </li>
-            <li class="portfolio-card">
-              <div class="portfolio-card-image">
+            <li class="portfolio-item">
+              <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio/img-05.jpg"
                   alt="Screen Illustrations"
                   width="360"
+                  height="300"
                 />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -385,16 +391,17 @@
                 </p>
               </div>
               <div class="portfolio-card-content">
-                <h3 class="portfolio-card-title">Screen Illustrations</h3>
-                <p class="portfolio-card-text">Design</p>
+                <h3 class="section-subtitle">Screen Illustrations</h3>
+                <p class="section-text">Design</p>
               </div>
             </li>
-            <li class="portfolio-card">
-              <div class="portfolio-card-image">
+            <li class="portfolio-item">
+              <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio/img-06.jpg"
                   alt="Online Courses"
                   width="360"
+                  height="300"
                 />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -403,8 +410,8 @@
                 </p>
               </div>
               <div class="portfolio-card-content">
-                <h3 class="portfolio-card-title">Online Courses</h3>
-                <p class="portfolio-card-text">Marketing</p>
+                <h3 class="section-subtitle">Online Courses</h3>
+                <p class="section-text">Marketing</p>
               </div>
             </li>
           </ul>
@@ -425,8 +432,8 @@
         </div>
 
         <div class="footer-social-box">
-          <p class="footer-social-text">Social media</p>
-          <ul class="social-list footer-social-list">
+          <p class="footer-title">Social media</p>
+          <ul class="social-list footer-social-list list">
             <li class="social-item">
               <a
                 class="social-link footer-social-link"
@@ -473,7 +480,122 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-subscribe-box">
+          <p class="footer-title">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label" for="footer-email">
+              <input
+                class="footer-input"
+                type="email"
+                name="subscribe-email"
+                id="footer-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-button" type="submit">
+              Subscribe
+              <svg class="footer-button-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop">
+      <div class="modal">
+        <button
+          class="modal-close-button"
+          type="button"
+          aria-label="Close modal"
+        >
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+
+        <form class="modal-form">
+          <div class="modal-field">
+            <label class="modal-label" for="user-name">Name</label>
+            <div class="modal-input-wrap">
+              <input
+                class="modal-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-field">
+            <label class="modal-label" for="user-phone">Phone</label>
+            <div class="modal-input-wrap">
+              <input
+                class="modal-input"
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-field">
+            <label class="modal-label" for="user-email">Email</label>
+            <div class="modal-input-wrap">
+              <input
+                class="modal-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-field modal-comment-field">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="modal-check-field">
+            <input
+              class="modal-check visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label class="modal-check-text" for="user-privacy">
+              <span class="modal-check-box">
+                <svg class="modal-check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="privacy-link" href="">Privacy Policy</a>
+            </label>
+          </div>
+
+          <button class="modal-submit-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
