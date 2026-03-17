@@ -660,7 +660,7 @@ button {
 }
 
 .modal-checkbox-label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
@@ -669,6 +669,7 @@ button {
 }
 
 .modal-checkbox-custom {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
@@ -682,7 +683,6 @@ button {
     background-color var(--transition),
     border var(--transition),
     fill var(--transition);
-  display: inline-flex;
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-custom {
