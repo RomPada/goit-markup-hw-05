@@ -669,7 +669,6 @@ button {
 .modal-checkbox-custom {
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
   width: 16px;
   height: 16px;
   margin-right: 8px;
