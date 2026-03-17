@@ -604,7 +604,7 @@ button {
   width: 100%;
   height: 40px;
   padding-left: 38px;
-/* padding: 14px 7px 14px 19px; */
+  /* padding: 14px 7px 14px 19px; */
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
@@ -617,14 +617,13 @@ button {
 }
 
 .modal-input-icon {
-    /* padding: 14px 7px 14px 19px; */
+  /* padding: 14px 7px 14px 19px; */
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   fill: var(--navy-blue);
   transition: fill var(--transition);
-  
 }
 
 .modal-input:focus + .modal-input-icon {
@@ -660,7 +659,7 @@ button {
 }
 
 .modal-checkbox-label {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
@@ -669,7 +668,6 @@ button {
 }
 
 .modal-checkbox-custom {
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
@@ -683,6 +681,7 @@ button {
     background-color var(--transition),
     border var(--transition),
     fill var(--transition);
+  display: inline-flex;
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-custom {
@@ -695,7 +694,10 @@ button {
   opacity: 0;
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-custom svg {
+.modal-checkbox-input:checked
+  + .modal-checkbox-label
+  .modal-checkbox-custom
+  svg {
   opacity: 1;
 }
 
