@@ -570,6 +570,7 @@ button {
 }
 
 .modal-close-icon {
+  fill: var(--navy-blue);
   stroke: var(--navy-blue);
   transition:
     fill var(--transition),
@@ -578,6 +579,7 @@ button {
 
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
+  fill: #ffffff;
   stroke: #ffffff;
 }
 
@@ -638,6 +640,7 @@ button {
 }
 
 .modal-input:focus + .modal-input-icon {
+  fill: #4d5ae5;
   color: #4d5ae5;
 }
 
@@ -697,6 +700,7 @@ button {
 .modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-custom {
   border: none;
   background-color: var(--ocean);
+  fill: var(--cloud);
   stroke: #ffffff;
 }
 
