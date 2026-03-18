@@ -366,16 +366,10 @@ button {
 
 .social-icon,
 .footer-social-icon,
-.footer-subscribe-icon {
-  fill: var(--cloud);
-}
-
-
+.footer-subscribe-icon,
 .modal-checkbox-icon {
   fill: var(--cloud);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .portfolio-list {
   display: flex;
@@ -578,9 +572,7 @@ button {
 .modal-close-icon {
   fill: var(--navy-blue);
   stroke: var(--navy-blue);
-  transition:
-    fill var(--transition),
-    stroke var(--transition);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover .modal-close-icon,
